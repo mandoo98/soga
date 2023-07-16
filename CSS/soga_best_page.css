@@ -1,0 +1,406 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+}
+/*메인배너*/
+#mainBanner{
+    margin-top:26px;
+    margin-bottom:70px;
+    margin-left:380px;
+}
+#mainBanner>img{
+    max-width:1200px;
+    margin:0 auto;
+}
+/*메인배너 End*/
+
+/*인기상품*/
+#contents{margin:0 353px;}
+.mainTitBest>.main_title{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    padding-bottom:10px;
+}
+.mainTitBest>.main_title>a:hover{color:#cbe547;}
+.mainTitBest>.sub_title{
+    text-align:center;
+    font-size:18px;
+    padding-bottom:30px;
+}
+#bestItem>.wrapBox1{
+    float:left;
+    margin:0 25px 85px 100px;
+}
+#bestItem>.wrapBox1 img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:10px;
+}
+#bestItem>.wrapBox1 .main_title{
+    font-weight:bold;
+    font-size:20px;
+}
+#bestItem>.wrapBox1 .sale{
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    color:#ff7900;
+    margin-top:10px;
+}
+#bestItem>.wrapBox1 .price{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:18px;
+}
+#bestItem>.wrapBox1 .origin{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    text-decoration:line-through;
+    color:#999;
+}
+#bestItem>.wrapBox2{
+    float:left;
+    margin:0 25px 85px 0;
+}
+#bestItem>.wrapBox2 img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:10px;
+}
+#bestItem>.wrapBox2 .main_title{
+    font-weight:bold;
+    font-size:20px;
+}
+#bestItem>.wrapBox2 .sale{
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    color:#ff7900;
+    margin-top:10px;
+}
+#bestItem>.wrapBox2 .price{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:18px;
+}
+#bestItem>.wrapBox2 .origin{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    text-decoration:line-through;
+    color:#999;
+}
+#bestItem>.wrapBox3{
+    float:left;
+    margin:0 0 85px 0;
+}
+#bestItem>.wrapBox3 img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:10px;
+}
+#bestItem>.wrapBox3 .main_title{
+    font-weight:bold;
+    font-size:20px;
+}
+#bestItem>.wrapBox3 .sale{
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    color:#ff7900;
+    margin-top:10px;
+}
+#bestItem>.wrapBox3 .price{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:18px;
+}
+#bestItem>.wrapBox3 .origin{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    text-decoration:line-through;
+    color:#999;
+}
+/*인기상품 End*/
+
+/*중간광고*/
+.hashTag{
+    float:left;
+    margin-left:100px;
+}
+.hashTag>a{
+    float:right;
+    margin-left:680px;
+    margin-bottom: 3px;
+}
+.adsBanner{
+    float:left;
+    margin-left:100px;
+    padding-bottom: 85px;
+}
+.adsBanner>img{border:1px solid #666;}
+/*중간광고 End*/
+
+/*생생채소*/
+.mainTitFresh .main_title{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    padding-bottom:40px;
+}
+.mainTitFresh>.main_title>a:hover{color:#cbe547;}
+#freshVegi>.wrapBox1{
+    float:left;
+    margin:0 25px 85px 460px;
+}
+#freshVegi>.wrapBox1 img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:10px;
+}
+#freshVegi>.wrapBox1 .main_title{
+    font-weight:bold;
+    font-size:20px;
+}
+#freshVegi>.wrapBox1 .sale{
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    margin-top:10px;
+}
+#freshVegi>.wrapBox2{
+    float:left;
+    margin:0 25px 85px 0;
+}
+#freshVegi>.wrapBox2 img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:10px;
+}
+#freshVegi>.wrapBox2 .main_title{
+    font-weight:bold;
+    font-size:20px;
+}
+#freshVegi>.wrapBox2 .sale{
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    color:#ff7900;
+    margin-top:10px;
+}
+#freshVegi>.wrapBox2 .price{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:18px;
+}
+#freshVegi>.wrapBox2 .origin{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    text-decoration:line-through;
+    color:#999;
+}
+#freshVegi>.wrapBox3{
+    float:left;
+    margin:0 0 85px 0;
+}
+#freshVegi>.wrapBox3 img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:10px;
+}
+.wrapBox3 .main_title{
+    font-weight:bold;
+    font-size:20px;
+}
+#freshVegi>.wrapBox3 .sale{
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    color:#ff7900;
+    margin-top:10px;
+}
+#freshVegi>.wrapBox3 .price{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:18px;
+}
+#freshVegi>.wrapBox3 .origin{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    text-decoration:line-through;
+    color:#999;
+}
+/*생생채소 End*/
+
+/*중간광고*/
+.hashTag2{
+    float:left;
+    margin-left:450px;
+}
+.hashTag2>a{
+    float:right;
+    margin-left:770px;
+    margin-bottom: 3px;
+}
+.adsBanner2{
+    float:left;
+    margin-left:450px;
+    padding-bottom:85px;
+}
+.adsBanner2>img{border:1px solid #666;}
+/*중간광고 End*/
+
+/*싱싱과일*/
+#mainTitFF>.main_title{
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    padding-bottom:40px;
+}
+#mainTitFF>.main_title>a:hover{color:#cbe547;}
+#mainTitFF>.wrapBox1{
+    float:left;
+    margin:0 25px 85px 460px;
+}
+#mainTitFF>.wrapBox1 .AD_img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:10px;
+}
+#mainTitFF>.wrapBox1 .main_title{
+    font-weight:bold;
+    font-size:20px;
+}
+#mainTitFF>.wrapBox1 .sale{
+    float:left;
+    font-weight:bold;
+    color:#ff7900;
+    font-size:20px;
+    margin-top:10px;
+}
+#mainTitFF>.wrapBox1 .price{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:18px;
+}
+#mainTitFF>.wrapBox1 .origin{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    text-decoration:line-through;
+    color:#999;
+}
+#mainTitFF>.wrapBox2{
+    float:left;
+    margin:0 25px 85px 0;
+}
+#mainTitFF>.wrapBox2 .AD_img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:10px;
+}
+#mainTitFF>.wrapBox2 .main_title{
+    font-weight:bold;
+    font-size:20px;
+}
+#mainTitFF>.wrapBox2 .sale{
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    color:#ff7900;
+    margin-top:10px;
+}
+#mainTitFF>.wrapBox2 .price{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:18px;
+}
+#mainTitFF>.wrapBox2 .origin{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    text-decoration:line-through;
+    color:#999;
+}
+#mainTitFF>.wrapBox3{
+    float:left;
+    margin:0 0 85px 0;
+}
+#mainTitFF>.wrapBox3 img{
+    width:330px;
+    height:330px;
+    object-fit:cover;
+    border-radius:10px;
+}
+#mainTitFF>.wrapBox3 .main_title{
+    font-weight:bold;
+    font-size:20px;
+}
+#mainTitFF>.wrapBox3 .sale{
+    float:left;
+    font-weight:bold;
+    font-size:20px;
+    color:#ff7900;
+    margin-top:10px;
+}
+#mainTitFF>.wrapBox3 .price{
+    float:left;
+    margin-top:10px;
+    margin-left:20px;
+    font-weight:bold;
+    font-size:18px;
+}
+#mainTitFF>.wrapBox3 .origin{
+    float:left;
+    margin-top:10px;
+    margin-left:10px;
+    text-decoration:line-through;
+    color:#999;
+}
+/*싱싱과일 End*/
+
+/*중간광고*/
+.hashTag3{
+    float:left;
+    margin-left:450px;
+}
+.hashTag3>a{
+    float:right;
+    margin-left:830px;
+    margin-bottom: 3px;
+}
+.adsBanner3{
+    float:left;
+    margin-left:450px;
+    padding-bottom:85px;
+}
+.adsBanner3>img{border:1px solid #666;}
+/*중간광고 End*/
