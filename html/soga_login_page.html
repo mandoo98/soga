@@ -1,165 +1,168 @@
-<!doctype HTML>
-<html lang="ko-kr">
-    <head>
-        <meta charset="UTF-8">
-        <title>로그인</title>
-        <link rel="stylesheet" href="../CSS/Master.css">
-        <link rel="stylesheet" href="../CSS/Login.css">
-    </haed>
-    <body id="MainPage">
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인</title>
+  <link rel="stylesheet" href="../CSS/Master.css">
+  <link rel="stylesheet" href="../CSS/Login.css">
+</head>
+<body>
     <!--로그인바-->
-        <div id="Login_bar">
-            <ul>
-                <li><a href="soga_login_page.html">로그인</a></li>
-                <li><a href="#">회원가입</a></li>
-                <li><a href="#">장바구니</a></li>
-            </ul>
-        </div>
+    <div id="Login_bar">
+      <ul>
+          <li><a href="soga_login_page.html">로그인</a></li>
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">장바구니</a></li>
+      </ul>
+    </div>
     <!--로그인바 End-->
 
     <!--로고-->
-        <div id="Main_logo">
-            <a href="../index.html"><img src="../Images/soga_main_logo.png"></a>
-        </div>
+    <div id="Main_logo">
+      <a href="../index.html"><img src="../Images/soga_main_logo.png"></a>
+    </div>
     <!--로고 End-->
 
     <!--네비게이션-->
-        <div id="Navigation">
-            <div id="Main_nav">
-                <ul class="main">
-                    <img src="../Images/Nav_icon/category_icon.png" class="category">
-                    <li class="first"><a href="#">전체 카테고리</a>
-                        <ul class="sub">
-                            <a href="#"><img src="../Images/Nav_icon/fruits.png" class="icon"></a>
-                            <li><a href="#">과일</a></li>
-                            <a href="#"></a><img src="../Images/Nav_icon/rice.png" class="icon"></a>
-                            <li><a href="#">쌀/잡곡</a></li>
-                            <a href="#"></a><img src="../Images/Nav_icon/vegetable.png" class="icon"></a>
-                            <li><a href="#">채소</a></li>
-                            <a href="#"></a><img src="../Images/Nav_icon/peanut.png" class="icon"></a>
-                            <li><a href="#">견과</a></li>
-                            <a href="#"></a><img src="../mages/Nav_icon/seafood.png" class="icon"></a>
-                            <li><a href="#">수산물/건어물</a></li>
-                            <a href="#"></a><img src="../Images/Nav_icon/meat.png" class="icon"></a>
-                            <li><a href="#">정육/계란</a></li>
-                            <a href="#"></a><img src="../Images/Nav_icon/herb.png" class="icon"></a>
-                            <li class="sub_F"><a href="#">친환경/유기농</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="soga_best_page.html">베스트</a></li>
-                    <li><a href="#">기획전</a></li>
-                    <li><a href="#">이벤트</a></li>
-                    <li><a href="soga_uglyVegi_page.html">못난이채소</a></li>
-                </ul>
-            </div>
-            <div id="search">
-                <input class="input_space" type="text">
-                <input class="btn" id="btn" type="image" src="../Images/Nav_icon/search.png">
-            </div>
-        </div>
+    <div id="Navigation">
+      <div id="Main_nav">
+          <ul class="main">
+              <img src="../Images/Nav_icon/category_icon.png" class="category">
+              <li class="first"><a href="#">전체 카테고리</a>
+                  <ul class="sub">
+                      <a href="#"><img src="../Images/Nav_icon/fruits.png" class="icon"></a>
+                      <li><a href="#">과일</a></li>
+                      <a href="#"></a><img src="../Images/Nav_icon/rice.png" class="icon"></a>
+                      <li><a href="#">쌀/잡곡</a></li>
+                      <a href="#"></a><img src="../Images/Nav_icon/vegetable.png" class="icon"></a>
+                      <li><a href="#">채소</a></li>
+                      <a href="#"></a><img src="../Images/Nav_icon/peanut.png" class="icon"></a>
+                      <li><a href="#">견과</a></li>
+                      <a href="#"></a><img src="../mages/Nav_icon/seafood.png" class="icon"></a>
+                      <li><a href="#">수산물/건어물</a></li>
+                      <a href="#"></a><img src="../Images/Nav_icon/meat.png" class="icon"></a>
+                      <li><a href="#">정육/계란</a></li>
+                      <a href="#"></a><img src="../Images/Nav_icon/herb.png" class="icon"></a>
+                      <li class="sub_F"><a href="#">친환경/유기농</a></li>
+                  </ul>
+              </li>
+              <li><a href="soga_best_page.html">베스트</a></li>
+              <li><a href="#">기획전</a></li>
+              <li><a href="#">이벤트</a></li>
+              <li><a href="soga_uglyVegi_page.html">못난이채소</a></li>
+          </ul>
+      </div>
+      <div id="search">
+          <input class="input_space" type="text">
+          <input class="btn" id="btn" type="image" src="../Images/Nav_icon/search.png">
+      </div>
+    </div>
     <!--네비게이션 End-->
-        <div id="Login">
-            <p>로그인</p>
-            <div id="Login_box">
-                <input type="text" name="id" class="id" required placeholder="아이디"><br>
-                <input type="text" name="pw" class="pw" required placeholder="비밀번호"><br><br>
-                <ul>
-                    <li class="find_id"><a href="#">아이디 찾기</a></li>
-                    <li class="find_pw"><a href="#">비밀번호 찾기</a></li>
-                </ul>
-                <form>
-                    <input type="submit" class="login_btn" value="로그인"><br>
-                </form>
-                <form>
-                    <input type="submit" class="sign_in" value="회원가입">
-                </form>
-            </div>
-        </div>
 
-    </body>
+    <div id="Login">
+      <p>로그인</p>
+      <div id="Login_box">
+          <input type="text" name="id" class="id" required placeholder="아이디"><br>
+          <input type="text" name="pw" class="pw" required placeholder="비밀번호"><br><br>
+          <ul>
+              <li class="find_id"><a href="#">아이디 찾기</a></li>
+              <li class="find_pw"><a href="#">비밀번호 찾기</a></li>
+          </ul>
+          <form>
+              <input type="submit" class="login_btn" value="로그인"><br>
+          </form>
+          <form>
+              <input type="submit" class="sign_in" value="회원가입">
+          </form>
+      </div>
+    </div>
 
     <footer>
-        <div id="Footer_Link">
-            <div id="First">
-                <a href="#">
-                    <img src="../Images/Footer_icon/ISMS.png" class="F_icon1">
-                    <p>[인증범위]소가 쇼핑몰 서비스 개발·운영
-                    <br>[유효기간]2022.01.19~2025.01.18</p>
-                </a>
-                <a href="#">
-                    <img src="../Images/Footer_icon/ePRIVACY_PLUS.png" class="F_icon2">
-                    <p>개인정보보호 우수 웹사이트·
-                    <br>개인정보처리시스템 인증(ePRIVACY PLUS)</p>
-                </a>
-                <a href="#">
-                    <img src="../Images/Footer_icon/toss_payments.png" class="F_icon3">
-                    <p>고객님의 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한
-                    <br>토스 페이먼츠 구매안전(에스크로)서비스를 이용하실 수 있습니다.</p>
-                </a>
-            </div>
+    <div id="Footer_Link">
+        <div id="First">
+            <a href="#">
+                <img src="../Images/Footer_icon/ISMS.png" class="F_icon1">
+                <p>[인증범위]소가 쇼핑몰 서비스 개발·운영
+                <br>[유효기간]2022.01.19~2025.01.18</p>
+            </a>
+            <a href="#">
+                <img src="../Images/Footer_icon/ePRIVACY_PLUS.png" class="F_icon2">
+                <p>개인정보보호 우수 웹사이트·
+                <br>개인정보처리시스템 인증(ePRIVACY PLUS)</p>
+            </a>
+            <a href="#">
+                <img src="../Images/Footer_icon/toss_payments.png" class="F_icon3">
+                <p>고객님의 안전거래를 위해 현금 등으로 결제 시 저희 쇼핑몰에서 가입한
+                <br>토스 페이먼츠 구매안전(에스크로)서비스를 이용하실 수 있습니다.</p>
+            </a>
         </div>
+    </div>
 
-        <div id="customer_first">
-            <p class="customer_center">고객행복센터</p>
-            <ul class="intro_corp">
-                <li><a href="#">소가소개</a></li>
-                <li><a href="#">소가소개영상</a></li>
-                <li><a href="#">인재채용</a></li>
-                <li><a href="#">이용약관</a></li>
-                <li><a href="#">개인정보처리방침</a></li>
-                <li><a href="#">이용안내</a></li>
-            </ul>
-        </div>
-        <div id="corp_info">
-            <p class="info">법인명(상호): 주식회사 소가</p>
-            <p class="info">사업자등록번호: 123-45-67890</p>
-            <p class="link"><a href="#">사업자정보확인</a></p>
-            <br><p class="info">통신판매업: 제 2022-경기부천-01234호</p>
-            <p class="info">개인정보보호책임자: 조선주</p>
-            <br><p class="info">주소: 경기도 부천시 심곡로 133, 3층(심곡동)</p>
-            <p class="info">대표이사: 조선주</p>
-            <br><p class="info2">입점문의:</p>
-            <p class="link2"><a href="#">입점문의하기</a></p>
-            <p class="info2">마케팅제휴:</p>
-            <p class="link2"><a href="#">business@soga.com</a></p>
-            <br><p class="info2">채용문의:</p>
-            <p class="link2"><a href="#">recruit@soga.com</a></p>
-            <br><p class="info">팩스: 070-1234-5678</p>
-            <p class="info2">이메일:</p>
-            <p class="link2"><a href="#">help@soga.com</a></p>
-            <p class="info2">대량주문 문의:</p>
-            <p class="link2"><a href="#">sogagift@soga.com</a></p>
-        </div>
-        <div id="customer_second">
-            <p class="center_num">1644-1234</p>
-            <p class="center_name">365고객센터</p>
-            <p class="time_intro">오전7시-오후7시</p>
-        </div>
-        <div id="customer_third">
-            <p class="service">카카오톡 문의</p>
-            <p class="center_name">365고객센터</p>
-            <p class="time_intro">오전7시-오후7시</p>
-        </div>
-        <div id="customer_fourth">
-            <p class="service">1:1 문의</p>
-            <p class="center_name">24시간 접수 가능</p>
-            <p class="time_intro">고객센터 운영시간에 순차적으로 답변해드리겠습니다.</p>
-        </div>
-        <div id="SNS">
-            <ul>
-                <li><a href="#"><img src="../Images/SNS_icon/instagram.png"></a></li>
-                <li><a href="#"><img src="../Images/SNS_icon/facebook.png"></a></li>
-                <li><a href="#"><img src="../Images/SNS_icon/twitter.png"></a></li>
-                <li><a href="#"><img src="../Images/SNS_icon/youtube.png"></a></li>
-            </ul>
-        </div>
-        <div id="customer_fifth">
-            <p class="service">대량주문 문의</p>
-            <p class="service_intro">비회원의 경우 메일로 문의바랍니다.</p>
-        </div>
-        <div id="Last_Footer">
-            <p class="first_int">소가에서 판매되는 상품 중에는 소가에 입점한 개별 판매자가 판매하는 마켓플레이스(오픈마켓)상품이 포함되어 있습니다.</p>
-            <p class="second_int">마켓플레이스(오픈마켓) 상품의 경우 소가는 통신판매중개자로서 통신판매의 당사자가 아닙니다. 소가는 해당 상품의 주문,품질,교환/환불 등 의무와 책임을 부담하지않습니다.</p>
-            <br><p class="rights">ⓒSOGA CORP. ALL RIGHTS RESERVED</p>
-        </div>
+    <div id="customer_first">
+        <p class="customer_center">고객행복센터</p>
+        <ul class="intro_corp">
+            <li><a href="#">소가소개</a></li>
+            <li><a href="#">소가소개영상</a></li>
+            <li><a href="#">인재채용</a></li>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이용안내</a></li>
+        </ul>
+    </div>
+    <div id="corp_info">
+        <p class="info">법인명(상호): 주식회사 소가</p>
+        <p class="info">사업자등록번호: 123-45-67890</p>
+        <p class="link"><a href="#">사업자정보확인</a></p>
+        <br><p class="info">통신판매업: 제 2022-경기부천-01234호</p>
+        <p class="info">개인정보보호책임자: 조선주</p>
+        <br><p class="info">주소: 경기도 부천시 심곡로 133, 3층(심곡동)</p>
+        <p class="info">대표이사: 조선주</p>
+        <br><p class="info2">입점문의:</p>
+        <p class="link2"><a href="#">입점문의하기</a></p>
+        <p class="info2">마케팅제휴:</p>
+        <p class="link2"><a href="#">business@soga.com</a></p>
+        <br><p class="info2">채용문의:</p>
+        <p class="link2"><a href="#">recruit@soga.com</a></p>
+        <br><p class="info">팩스: 070-1234-5678</p>
+        <p class="info2">이메일:</p>
+        <p class="link2"><a href="#">help@soga.com</a></p>
+        <p class="info2">대량주문 문의:</p>
+        <p class="link2"><a href="#">sogagift@soga.com</a></p>
+    </div>
+    <div id="customer_second">
+        <p class="center_num">1644-1234</p>
+        <p class="center_name">365고객센터</p>
+        <p class="time_intro">오전7시-오후7시</p>
+    </div>
+    <div id="customer_third">
+        <p class="service">카카오톡 문의</p>
+        <p class="center_name">365고객센터</p>
+        <p class="time_intro">오전7시-오후7시</p>
+    </div>
+    <div id="customer_fourth">
+        <p class="service">1:1 문의</p>
+        <p class="center_name">24시간 접수 가능</p>
+        <p class="time_intro">고객센터 운영시간에 순차적으로 답변해드리겠습니다.</p>
+    </div>
+    <div id="SNS">
+        <ul>
+            <li><a href="#"><img src="../Images/SNS_icon/instagram.png"></a></li>
+            <li><a href="#"><img src="../Images/SNS_icon/facebook.png"></a></li>
+            <li><a href="#"><img src="../Images/SNS_icon/twitter.png"></a></li>
+            <li><a href="#"><img src="../Images/SNS_icon/youtube.png"></a></li>
+        </ul>
+    </div>
+    <div id="customer_fifth">
+        <p class="service">대량주문 문의</p>
+        <p class="service_intro">비회원의 경우 메일로 문의바랍니다.</p>
+    </div>
+    <div id="Last_Footer">
+        <p class="first_int">소가에서 판매되는 상품 중에는 소가에 입점한 개별 판매자가 판매하는 마켓플레이스(오픈마켓)상품이 포함되어 있습니다.</p>
+        <p class="second_int">마켓플레이스(오픈마켓) 상품의 경우 소가는 통신판매중개자로서 통신판매의 당사자가 아닙니다. 소가는 해당 상품의 주문,품질,교환/환불 등 의무와 책임을 부담하지않습니다.</p>
+        <br><p class="rights">ⓒSOGA CORP. ALL RIGHTS RESERVED</p>
+    </div>
     </footer>
+</body>
+</html>
