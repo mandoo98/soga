@@ -1,23 +1,23 @@
 # soga
 창작 온라인 식료품, 식재료 쇼핑몰
 
-# About Project
+# 🔎About Project
 Html, css만으로 제작된 순수 Standard webpage입니다.
 저의 첫 퍼블리싱 작품으로, 팀 프로젝트로 진행되었습니다.
 
-# Develop Period
+# 📋Develop Period
 2022.04.18 ~ 2022.05.04
 ![image](https://github.com/mandoo98/soga/assets/128768591/fb252c41-bb19-455d-9594-6e6029e7b911)
 
-# What Use
+# 🛠️What Used
 Html, css
 
-# Point
+# ✔️Point
 첫 퍼블리싱 작품이었던만큼, 기능적인 부분보다는 온라인 쇼핑몰의 틀을 제대로 구성하고 구현하는 것에 초점을 두었습니다.
 
 우리가 일상에서 자주 접하는 온라인 쇼핑몰들을 참고로 가장 공통적인 부분들부터 재현하였습니다.
 
-# My work
+# ⌨️My work
 1. 웹사이트 컨셉 설정(정보수집, 사이트의 목표, 컨셉, 타겟, 키워드 분석)
 2. 컨셉에 맞는 기존 쇼핑몰 분석
 3. 디자인 가이드라인 제작(CI 가이드, 서체 가이드)
